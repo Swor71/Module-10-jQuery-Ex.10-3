@@ -1,0 +1,63 @@
+#carousel {
+  width: 1200px;
+  height: 600px;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  height: 600px;
+  width: 6000px;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.fa-angle-right {
+  position: absolute;
+  top: 45%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.fa-angle-left {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  cursor: pointer;
+}
+
+[class*="pic-"] {
+  width: 1200px;
+  height: 600px;
+}
+
+.pic-1 {
+  background-color: lightblue;
+}
+
+.pic-2 {
+  background-color: lightgreen;
+}
+
+.pic-3 {
+  background-color: tan;
+}
+
+.pic-4 {
+  background-color: red;
+}
+
+.pic-5 {
+  background-color: navy;
+}
+/*# sourceMappingURL=style.css.map */
