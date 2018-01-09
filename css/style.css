@@ -8,32 +8,54 @@
   position: relative;
 }
 
-ul {
+.photos {
+  position: absolute;
   padding: 0;
   margin: 0;
   height: 600px;
   width: 6000px;
 }
 
-li {
+.photos li {
   list-style: none;
   padding: 0;
   margin: 0;
   float: left;
 }
 
-.fa-angle-right {
+.dots {
+  position: absolute;
+  bottom: 20px;
+  left: 525px;
+}
+
+.dots li {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  margin: 5px;
+}
+
+.dots .active {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.fa {
   position: absolute;
   top: 45%;
-  right: 5%;
   cursor: pointer;
+  z-index: 5;
+}
+
+.fa-angle-right {
+  right: 5%;
 }
 
 .fa-angle-left {
-  position: absolute;
-  top: 45%;
   left: 5%;
-  cursor: pointer;
 }
 
 [class*="pic-"] {
