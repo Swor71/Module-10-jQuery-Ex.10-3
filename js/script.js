@@ -32,5 +32,14 @@ $(function(){
 		changeSlide(target);
 	});
 
+	function autoSlide(){
+		target = dot.siblings('.active').index();
+		target == dot.length - 1 ? target = 0 : target += 1;
+		changeSlide(target);
+	}
+
+	setInterval(function(){
+		autoSlide();
+	}, 3000);
 });
 
